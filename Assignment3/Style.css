@@ -1,0 +1,89 @@
+/*Link Bullshit*/
+a {
+ color: #F37171;
+}
+
+a:link {
+ color: #F37171;
+}
+
+a:visited {
+ color: #B0FDAF;
+}
+
+a:active {
+ color: #FBC9FC;
+}
+
+a:hover {
+ color: #FDFCAF;
+}
+
+/*Footer Bullshit*/
+
+#Tootsies {
+ color: #FBC9FC;
+}
+
+/*Home Page*/
+#Header1Home {
+  background-color: #CB0551;
+  color: #FFFFFF;
+}
+
+#Header2Home {
+  background-color: #CB0551;
+  color: #FFFFFF;
+}
+
+#ContactInfo {
+  color: #CB0551;
+}
+/*Assignment3Requirements*/
+#Header1Requirements {
+  background-color: #F3E3B3;
+  color: #F3BEB3;
+}
+
+.Header2Requirements {
+  background-color: #F3BEB3;
+  color: #F3E3B3;
+}
+
+.Header3Requirements {
+  background-color: #F3E3B3;
+  color: #F3BEB3;
+}
+
+.Header4Requirements{
+  background-color: #F3BEB3;
+  color: #F3E3B3;
+}
+
+.textr {
+  color: #F68973;
+}
+
+.classes {
+  color: #F6D18D;
+}
+/*Assignment3ClassList*/
+
+#Header1Class {
+  background-color: #F9ECB8;
+  color: #A431B9;
+}
+
+.Header2Class {
+  background-color: #E9C6F0;
+  color: #CCA404;
+}
+
+.textc {
+  color: #A431B9;
+}
+
+#GameDesign2 {
+  background-color: #F9ECB8;
+  color: #A431B9;
+}
