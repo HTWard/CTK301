@@ -1,0 +1,154 @@
+/*Link Bullshit*/
+a {
+ color: #F37171;
+ background-color: #8C04E0;
+}
+
+a:link {
+ color: #F37171;
+}
+
+a:visited {
+ color: #B0FDAF;
+}
+
+a:hover {
+ color: #FDFCAF;
+}
+
+a:active {
+  color: #FBC9FC;
+}
+
+/*Footer Bullshit*/
+
+#Tootsies {
+ color: #000000;
+}
+
+/*Font Bullshit*/
+
+body {
+  font-family: sans-serif;
+}
+
+/*Image Bullshit*/
+
+.Images {
+  background-color: #FFFFFF;
+  border: 5px solid #000000;
+  padding: 10px;
+}
+
+/*Home Page*/
+#Home {
+  background-image: url(MagicAxolotl.jpg);
+  background-position: center;
+}
+
+#Header1Home {
+  background-color: #CB0551;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+#Header2Home {
+  background-color: #CB0551;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+#ContactInfo {
+  color: #CB0551;
+  Background-color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+/*Assignment3Requirements*/
+#Requirements {
+  background-image: url(OrangeFroggy.jpg);
+  background-position: center;
+}
+
+#Header1Requirements {
+  background-color: #F3E3B3;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.Header2Requirements {
+  background-color: #FCEFEC;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.Header3Requirements {
+  background-color: #F3E3B3;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.Header4Requirements{
+  background-color: #FCEFEC;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.textr {
+  background-color: #FFFFFF;
+  color: #F68973;
+  text-align: justify;
+}
+
+.classes {
+  color: #F6D18D;
+}
+/*Assignment3ClassList*/
+#ClassList {
+  background-image: url(Enderman.jpg);
+  background-position: center;
+}
+
+#Header1Class {
+  background-color: #F9ECB8;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.Header2Class {
+  background-color: #E9C6F0;
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.textc {
+  background-color: #FFFFFF;
+  color: #A431B9;
+}
+
+#GameDesign2 {
+  background-color: #F9ECB8;
+  color: #A431B9;
+}
+
+h2 {
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: #FCB211;
+  font-style: italic;
+  font-weight: normal;
+}
