@@ -1,0 +1,61 @@
+h1 {
+  color: #FFFFFF;
+}
+
+a:link {
+ color: #0DA019;
+ text-decoration: none;
+}
+
+a:visited {
+  color: #0DA019;
+  text-decoration: none;
+}
+
+a:hover {
+ color: #A01E0D;
+ text-decoration: underline;
+}
+
+#ThePoisonSky {
+  background-color: #9FA3FE;
+}
+
+h2 {
+  color: #192BFA;
+}
+
+#ImTheDoctor {
+  color: #FB9612;
+  font-weight: bold;
+}
+
+h3 {
+  background-color: #FBF30D;
+}
+
+#redbois {
+  color:#FB0D15;
+}
+
+h4 {
+  background-color: #047F06;
+  color: #FBF30D;
+}
+
+#greenbois {
+  background-color: #73F675;
+}
+
+h5 {
+  color: #FB0D15;
+}
+
+#yellowbois {
+  background-color: #FBF30D;
+}
+
+#thedoctor {
+  color: #192BFA;
+  font-weight: bold;
+}
