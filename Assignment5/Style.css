@@ -1,0 +1,79 @@
+/*.+ Background of the webpage +.*/
+body {
+  background-image: url(a5bg.png);
+}
+
+/*.+ Header! +.*/
+h1 {
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/*.+ Navigation Buttons! +.*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 0;
+  margin: 10px;
+  width: 150px;
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  background-color: #221A93;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #2111FC;
+}
+
+/*.+ Content! +.*/
+#Content {
+  background-color: white;
+  padding: 30px 20px 30px 20px;
+}
+
+#Content h2 {
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#Content p {
+  text-align: justify;
+}
+
+#Content a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Content a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+/*.+ Footer! +.*/
+footer {
+  background-color: #221A93;
+  margin: 20px 0 20px 0;
+  padding: 30px;
+  border: 3px solid #ffffff;
+}
+
+footer p {
+  color: #ffffff;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
