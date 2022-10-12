@@ -1,0 +1,125 @@
+/*.+ Background! +.*/
+body {
+  background-color: #9B9B9B;
+}
+
+/*.+ Central Block +.*/
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #054CA3;
+  background-color: #ffffff;
+}
+
+/*.+ Header +.*/
+header {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+header a {
+  border: 3px solid #054CA3;
+  display: block;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #77acec, #5d93da, #447bc8, #2a63b6, #054ca3);
+  color: white;
+}
+
+/*.+ Navigation +.*/
+nav {
+    background-image: linear-gradient(to bottom, #77acec, #5d93da, #447bc8, #2a63b6, #054ca3);
+}
+body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+body nav a {
+  display:block;
+  border: 3px solid #054CA3;
+  font-family: helvetica, arial, sans-serif;
+  background-image: linear-gradient(to bottom, #77acec, #5d93da, #447bc8, #2a63b6, #054ca3);
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  width: 200px;
+}
+
+#Rick {
+  color: #054CA3;
+}
+
+body nav a:hover {
+  background-image: linear-gradient(to top, #77acec, #5d93da, #447bc8, #2a63b6, #054ca3);
+}
+
+/*.+ H2s +.*/
+h2 {
+  border-bottom: 3px solid #054CA3;
+  padding: 10px;
+  font-family: helvetica, arial, sans-serif;
+  color: #054CA3;
+  margin: 0 20px 0 20px;
+}
+
+/*.+ Justified Text Clump +.*/
+#Justified {
+  font-weight: bold;
+  text-align: justify;
+  margin: 0 20px 0 20px;
+}
+
+/*.+ Image +.*/
+#Dan {
+  border: 3px solid #054CA3;
+  margin: 10px 20px 10px 20px;
+  float: left;
+}
+
+#Tables {
+  border: 3px solid #054CA3;
+  margin: 10px 20px 10px 20px;
+  float: Right;
+}
+
+.Gallery {
+  border: 3px solid #054CA3;
+  margin: 10px 20px 10px 20px;
+}
+
+/*.+ Textual Text +.*/
+.TextH {
+  margin: 20px;
+}
+
+.TextH a {
+  text-decoration: none;
+  color: red;
+}
+
+.TextH a:hover {
+  text-decoration: underline;
+  color: #054CA3;
+}
+
+/*.+ Footer!!! +.*/
+footer a {
+  background-color: red;
+  display: block;
+  padding: 10px;
+}
