@@ -21,7 +21,7 @@ h1 {
 header {
   margin: 0;
   display: block;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Pacifico', cursive;
   font-weight: normal;
   text-decoration: none;
   padding: 20px;
@@ -45,7 +45,7 @@ nav li {
 body nav a {
   display:block;
   border: 3px solid #FBDEDE;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Pacifico', cursive;
 background-image: linear-gradient(to bottom, #fee7eb, #fbdfec, #f2d8f0, #e2d3f7, #cad0fc);
   color: #7484FF;
   padding: 10px;
@@ -56,11 +56,12 @@ background-image: linear-gradient(to bottom, #fee7eb, #fbdfec, #f2d8f0, #e2d3f7,
 
 body nav a:hover {
   background-image: linear-gradient(to top, #fee7eb, #fbdfec, #f2d8f0, #e2d3f7, #cad0fc);
+  border-radius: 10px;
 }
 
 /*.+ Body Home +.*/
 .title {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Pacifico', cursive;
   color: #7484FF;
   margin: 10px;
 }
@@ -68,24 +69,28 @@ body nav a:hover {
 .pic {
   border: 3px solid #FBDEDE;
   height: 400px;
+  border-radius: 10px;
 }
 
 /*.+ Body About +.*/
-
 .me {
   height: 300px;
   float:left;
+  border: 3px solid #FBDEDE;
+  border-radius: 700px;
 }
 
 #about {
+  font-family: 'Shadows Into Light', cursive;
   color: #7484FF;
   margin: 10px;
 }
 
 /*.+ Footer +.*/
 footer {
+  clear:both;
   background-image: url("moon-gcd27f902d_1920.jpg");
   padding: 20px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Pacifico', cursive;
   color:#ffffff
 }
