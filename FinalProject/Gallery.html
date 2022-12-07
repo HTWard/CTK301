@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Links and scripts in <head> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
     <meta charset="utf-8">
     <title>Gallery</title>
     <link href="PortfolioStyle.css" rel="stylesheet" type="text/css" />
@@ -19,27 +25,44 @@
 
     <nav>
       <ul>
-        <li><a href="Home.html" target="_blank">Home</a></li>
-        <li><a href="About.html" target="_blank">About</a></li>
-        <li><a href="#" target="_blank">Gallery</a></li>
+        <li><a href="Home.html" target="_self">Home</a></li>
+        <li><a href="About.html" target="_self">About</a></li>
+        <li><a href="#" target="_self">Gallery</a></li>
       </ul>
     </nav>
 
     <main>
       <h2 class="title">General Works</h2>
-      <img class="pic" src="DowsingFixed.jpg" alt="Dowsing Girl" >
-      <img class="pic" src="FaeFolkFixed.jpg" alt="Fae Folk" >
-      <img class="pic" src="Obeseus.jpg" alt="Obeseus" >
+      <div id="Carousel_General" class="carousel">
+    <div class="carousel__slide"><img src="Images/DowsingFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/FaeFolkFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Obeseus.jpg"></div>
+    <div class="carousel__slide"><img src="Images/CircusGirlFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Hallucinations.jpg"></div>
+    <div class="carousel__slide"><img src="Images/SaphicMermaids.jpg"></div>
+    <div class="carousel__slide"><img src="Images/SustainableCaterpillerFixed.jpg"></div>
+      </div>
 
       <h2 class="title">Inktober 2022</h2>
-      <img class="pic" src="Inktober02Fixed.jpg" alt="Inktober day 2" >
-      <img class="pic" src="Inktober03Fixed.jpg" alt="Inktober day 3" >
-      <img class="pic" src="Inktober04Fixed.jpg" alt="Inktober day 4" >
+      <div id="Carousel_Inktober2022" class="carousel">
+    <div class="carousel__slide"><img src="Images/Inktober02Fixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Inktober03Fixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Inktober04Fixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Inktober05Fixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Inktober06Fixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Inktober07Fixed.jpg"></div>
+      </div>
 
       <h2 class="title">100 Days of Man</h2>
-      <img class="pic" src="Day1OfManFixed.jpg" alt="Inktober day 2" >
-      <img class="pic" src="Day2OfManFixed.jpg" alt="Inktober day 3" >
-      <img class="pic" src="Day3OfManFixed.jpg" alt="Inktober day 4" >
+      <div id="Carousel_Man" class="carousel">
+    <div class="carousel__slide"><img src="Images/Day1OfManFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Day2OfManFixed.JPG"></div>
+    <div class="carousel__slide"><img src="Images/Day3OfManFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Day4OfManFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Day5OfManFixed.jpg"></div>
+    <div class="carousel__slide"><img src="Images/Day6OfManFixed.jpg"></div>
+      </div>
+
     </main>
 
     <footer>
@@ -49,7 +72,23 @@
       <p>Email: HTWard@ilstu.edu</p>
       <p>Instagram: @WannabeCherubArt</P>
     </footer>
+
   </div>
 
+  <script>
+    const Carousel_General = new Carousel(document.querySelector("#Carousel_General"), {
+      // Your options go here
+    });
+  </script>
+  <script>
+    const Carousel_Inktober2022 = new Carousel(document.querySelector("#Carousel_Inktober2022"), {
+      // Your options go here
+    });
+  </script>
+  <script>
+    const Carousel_Man = new Carousel(document.querySelector("#Carousel_Man"), {
+      // Your options go here
+    });
+  </script>
   </body>
 </html>
